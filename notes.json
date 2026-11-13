@@ -1,0 +1,41 @@
+[
+  {
+    "id": "java-arrays",
+    "course": "Java Programming",
+    "title": "Java Array｜陣列入門",
+    "summary": "從索引、length 到 for-each，輕鬆理解 Java 陣列。",
+    "date": "2026-11-13",
+    "tags": ["Java", "Array", "迴圈"],
+    "sections": [
+      {"heading": "什麼是陣列？", "body": "陣列（Array）可以在同一個變數名稱下存放多個相同型別的資料。陣列長度建立後不能改變。"},
+      {"heading": "索引與長度", "body": "陣列索引從 0 開始。假設有三個元素，索引分別是 0、1、2；length 則是 3。", "code": "int[] scores = {80, 90, 100};\nSystem.out.println(scores[0]); // 80\nSystem.out.println(scores.length); // 3"},
+      {"heading": "for-each 迴圈", "body": "for-each 可以依序讀取陣列中的元素，適合不需要使用索引的情況。", "code": "for (int score : scores) {\n    System.out.println(score);\n}"}
+    ]
+  },
+  {
+    "id": "accounting-adjusting-entries",
+    "course": "Accounting",
+    "title": "Adjusting Entries｜調整分錄",
+    "summary": "理解期末為什麼要調整分錄，以及常見的四種類型。",
+    "date": "2026-11-12",
+    "tags": ["Accounting", "分錄", "期末"],
+    "sections": [
+      {"heading": "為什麼需要調整分錄？", "body": "權責發生制會計要求收入在賺得時認列、費用在發生時認列，因此期末需要調整尚未正確反映的帳戶。"},
+      {"heading": "四種常見類型", "body": "預付費用（Prepaid Expenses）、預收收入（Unearned Revenues）、應計費用（Accrued Expenses）、應計收入（Accrued Revenues）。"},
+      {"heading": "簡單例子", "body": "如果已使用一個月的預付保險，期末需將已耗用的部分從資產轉列保險費用。"}
+    ]
+  },
+  {
+    "id": "economics-supply-demand",
+    "course": "Economics",
+    "title": "Supply & Demand｜供給與需求",
+    "summary": "用簡單的例子理解需求、供給和市場均衡。",
+    "date": "2026-11-11",
+    "tags": ["Economics", "供需", "均衡"],
+    "sections": [
+      {"heading": "需求與供給", "body": "其他條件不變時，價格越高，通常需求量越少；價格越高，通常供給量越多。"},
+      {"heading": "市場均衡", "body": "當需求量等於供給量時，就得到均衡價格與均衡數量。"},
+      {"heading": "計算練習", "body": "假設 Qd = 100 - 2P，Qs = 20 + 2P。令 Qd = Qs，可得 100 - 2P = 20 + 2P，因此 P = 20，Q = 60。"}
+    ]
+  }
+]
