@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="StudySpace：簡單、溫暖的學習筆記空間。" />
+  <title>StudySpace｜My Learning Corner</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html"><span class="brand-mark">✦</span> StudySpace<span class="brand-dot">.</span></a>
+      <p class="side-caption">MY LITTLE STUDY CORNER</p>
+      <nav aria-label="主要導覽">
+        <a class="nav-item active" href="index.html">⌂ &nbsp; Dashboard</a>
+        <a class="nav-item" href="#courses">▦ &nbsp; My Courses</a>
+        <a class="nav-item" href="#notes">▤ &nbsp; All Notes</a>
+      </nav>
+      <div class="side-note"><span>☕</span><p>Small steps, big progress.<br />每天進步一點點！</p></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><span>MY LEARNING SPACE</span><span class="topbar-badge">✿ Keep learning</span></header>
+      <section class="hero" aria-labelledby="hero-title">
+        <div><p class="eyebrow">WELCOME TO YOUR STUDY SPACE ✨</p><h1 id="hero-title">A little progress<br />every day<span class="accent">.</span></h1><p>把每一份努力，都收藏在自己的學習角落。<br />今天想複習什麼呢？</p><a class="primary-link" href="#notes">Explore my notes <span aria-hidden="true">→</span></a></div>
+        <div class="hero-art" aria-hidden="true"><div class="art-sun">✳</div><div class="art-book book-back"></div><div class="art-book book-front"><span>STUDY<br />NOTES</span><span class="book-flower">✿</span></div><div class="art-sparkle">✦</div></div>
+      </section>
+      <section id="courses" class="section"><div class="section-heading"><div><p class="eyebrow">LET'S GET ORGANIZED</p><h2>My Courses <span class="tiny-flower">✿</span></h2></div><p>選擇一個科目，開始學習吧！</p></div><div class="course-grid" id="course-grid"></div></section>
+      <section id="notes" class="section"><div class="section-heading"><div><p class="eyebrow">YOUR KNOWLEDGE LIBRARY</p><h2>Study Notes <span class="tiny-flower">✦</span></h2></div><p id="note-count" aria-live="polite"></p></div><div class="tools"><label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">搜尋筆記</span><input id="search" type="search" placeholder="Search your notes..." autocomplete="off" /></label><div class="filters" id="filters" aria-label="科目篩選"></div></div><div class="note-grid" id="note-grid"></div><p class="empty-state" id="empty-state" hidden>找不到符合的筆記，試試其他關鍵字吧！</p><p id="load-error" class="error-message" role="alert" hidden>筆記載入失敗。請確認網站透過本機伺服器或 GitHub Pages 開啟。</p></section>
+      <footer>Made with ♡ for curious minds · StudySpace © 2026</footer>
+    </main>
+  </div>
+</body>
+</html>
